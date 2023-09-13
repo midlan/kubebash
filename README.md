@@ -7,7 +7,7 @@ The goal of this repository is to add the command `kubebash` that starts bash wi
 ```bash
 KUBEBASH_INSTALL_DIR="${HOME}/.midlan_kubebash" && \
 git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:midlan/kubebash.git "${KUBEBASH_INSTALL_DIR}" && \
-rm -rf "${KUBEBASH_INSTALL_DIR}/.git" "${KUBEBASH_INSTALL_DIR}/jonmosco_kube-ps1/.git" # remove git metadata folders && \
+rm -rf "${KUBEBASH_INSTALL_DIR}/.git" "${KUBEBASH_INSTALL_DIR}/jonmosco_kube-ps1/.git" && \
 echo -e "# kubebash\n. ${KUBEBASH_INSTALL_DIR}/kubebash.sh" >> ~/.bashrc
 ```
 _You can change install location by changing `KUBEBASH_INSTALL_DIR` variable. By default, there will be created directory `.midlan_kubebash` in your home directory._
