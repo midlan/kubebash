@@ -19,6 +19,5 @@ Add to your `.bashrc` (change the path to yours):
 ```bash
 # kubebash
 . /path/to/kubebash.sh
-alias kubebash='KUBEBASH=1 bash'
 ```
 
